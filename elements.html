@@ -98,6 +98,7 @@
                       </tr>
                     </tbody>
                   </table>
+                </div>
                 <p>The formulas in the above table are used to calculate the required parameters here R represents red color (band 4) , G represents green color  (band 3) , B represents blue color (band 2) and NIR represents the near Infrared (band5) among the 11 bands we have downloaded in Landsat 8 data.
                 Next, each raster calculated file was converted to CSV where we ended up with 8 different CSV files, then those data were merged to a single CSV file. The final file from Landsat 8 data preprocessing includes latitude, longitude, and 8 spectral indices values.
                   <p> Next, we downloaded corresponding SMOS data from the <a href="https://earth.esa.int/eogateway/missions/smos/data"> European Space Agency site </a> and extracted direct salinity values which was represented as Sea Surface Salinity (SSS)  along with latitude and longitude in CSV file form. Later for the common locations, spectral indices from Landsat 8 and Sea Surface Salinity(SSS)  from SMOS data are combined into a single file in order to make the data Machine Learning ready. During this process, data cleaning is applied to remove null values.
