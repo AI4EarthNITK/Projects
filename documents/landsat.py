@@ -28,7 +28,7 @@ with open("output.txt", "w") as f:
         f.write(scene['landsat_product_id'])
         f.write("\n")
 
-ee = EarthExplorer('sudhakarab.217it006@gmail.com', 'sudhausgs0904')
+ee = EarthExplorer('username', 'password')
 with open("output.txt", "r") as f:
     line = f.readline()[:-1]
 
